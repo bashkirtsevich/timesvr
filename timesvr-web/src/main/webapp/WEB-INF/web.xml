@@ -8,7 +8,7 @@
 
     <servlet-mapping>
         <servlet-name>timesvr</servlet-name>
-        <url-pattern>/time</url-pattern>
-        <url-pattern>/time/current</url-pattern>
+        <url-pattern>/</url-pattern>
+        <url-pattern>/current</url-pattern>
     </servlet-mapping>
 </web-app>   
