@@ -44,7 +44,7 @@
         <!-- Depend on the ejb module and war so that we can package them -->
         <dependency>
             <groupId>com.mad</groupId>
-            <artifactId>timesvr-web</artifactId>
+            <artifactId>time</artifactId>
             <type>war</type>
         </dependency>
         <dependency>
