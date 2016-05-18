@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<web-app>
+    <servlet>
+        <servlet-name>timesvr</servlet-name>
+        <servlet-class>timesvr.app.timesvr</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>timesvr</servlet-name>
+        <url-pattern>/time</url-pattern>
+        <url-pattern>/time/current</url-pattern>
+    </servlet-mapping>
+</web-app>   

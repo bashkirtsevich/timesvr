@@ -72,7 +72,7 @@ public class timesvr extends HttpServlet {
      */
     @Override
     public String getServletInfo() {
-        return "Short description";
+        return "Timesvr servlet";
     }// </editor-fold>
 
 }
